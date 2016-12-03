@@ -11,7 +11,7 @@
 
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -22,7 +22,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #ffffff;
 }
@@ -83,6 +83,11 @@ a:after {
     padding: 0;
 }
 
+iframe {
+  height: 270px;
+  width: 360px;
+}
+
 
 .navbar {
 	text-transform: uppercase;
@@ -117,9 +122,30 @@ a:after {
 .intro {
   position: absolute;
   left: 200px;
+  margin-top:30px;
   color: #ffffff;
   width: 50%;
   font-size: 14px;
+}
+
+.title_text {
+  position: absolute;
+  left: 200px;
+  color: #ffffff;
+  width: 50%;
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.try_again {
+  position: absolute;
+  color: #ffffff;
+  left: 20px;
+  top: 35px;
+  font-size: 20px;
 }
 
 
@@ -147,7 +173,6 @@ a:after {
 #footer {
 	background-color: #2f2f2f;
 	padding-top: 50px;
-	padding-bottom: 50px; 
 }
 
 #footer p {
