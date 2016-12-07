@@ -94,6 +94,11 @@ iframe {
 	margin-bottom: 0px;
 }
 
+.link {
+  line-height: 35px;
+  font-size: 16px;
+}
+
 .navbar-brand {
 	font-weight: 700;
 	font-size: 20px;
@@ -148,6 +153,10 @@ iframe {
   font-size: 20px;
 }
 
+#main_baby_videos_page {
+  padding-top: 46px;
+  padding-left: 8px;
+}
 
 /* Helpers */
 
