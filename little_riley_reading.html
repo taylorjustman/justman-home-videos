@@ -36,7 +36,7 @@
     <!-- Password Protection -->
     <script LANGUAGE="javascript">
       var getin = prompt("This page requires a password.","")
-      if (getin=="peppermint"){
+      if (getin.toLowerCase().replace(/\s+/g,'')=="peppermint"){
       }
       else{
         location.href="wrong_password.html"
