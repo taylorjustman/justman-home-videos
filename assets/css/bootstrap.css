@@ -346,6 +346,11 @@ img {
   width: 360px;
 }
 
+.img-responsive-upright {
+  height: 360px;
+  width: 270px;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -365,6 +370,12 @@ img {
 
 .img-circle {
   border-radius: 50%;
+}
+
+.photos {
+    border-top: 2px solid #E6D7D8;
+    width: 100% !important;
+    margin-top: -30px;
 }
 
 hr {
