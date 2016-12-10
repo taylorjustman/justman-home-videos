@@ -35,12 +35,12 @@
 
     <!-- Password Protection -->
     <script LANGUAGE="javascript">
-      var getin = prompt("This page requires a password.","")
-      if (getin.toLowerCase().replace(/\s+/g,'')=="peppermint"){
+      var getin = prompt("This page requires a password.")
+      if (getin != null && getin.toLowerCase().replace(/\s+/g,'')=="peppermint"){
       }
       else{
         location.href="wrong_password.html"
-      }                                 
+      }   
     </script>
   </head>
   </head>

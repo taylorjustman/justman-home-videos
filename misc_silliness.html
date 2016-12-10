@@ -35,12 +35,12 @@
 
     <!-- Password Protection -->
     <script LANGUAGE="javascript">
-      var getin = prompt("This page requires a password.","")
-      if (getin.toLowerCase().replace(/\s+/g,'')=="peppermint"){
+      var getin = prompt("This page requires a password.")
+      if (getin != null && getin.toLowerCase().replace(/\s+/g,'')=="peppermint"){
       }
       else{
         location.href="wrong_password.html"
-      }                                 
+      }   
     </script>
   </head>
 
@@ -105,6 +105,39 @@
       <div class="col-lg-4"></div>
       </div><!-- /row -->
 	</div><!-- /container -->
+
+
+
+
+<!-- PHOTOS -->
+  <div class="container pt photos">
+    <div class="row mt centered"> 
+      <div class="col-lg-4">
+        <img class="img-responsive-upright" src="http://i.imgur.com/UDIQU3O.jpg" alt="" />
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive-upright" src="http://i.imgur.com/ThCYSzi.jpg" alt="" />
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive-upright" src="http://i.imgur.com/qk6cUfE.jpg" alt="" />
+      </div>
+    </div><!-- /row -->
+    <div class="row mt centered"> 
+      <div class="col-lg-4">
+        <img class="img-responsive" src="http://i.imgur.com/86FUNBn.jpg" alt="" />
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive" src="" alt="" />
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive" src="" alt="" />
+      </div>
+    </div><!-- /row -->
+  </div><!-- /container -->
+
+
+
+  
 	
 	
 	<!-- +++++ Footer Section +++++ -->
