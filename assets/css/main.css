@@ -158,6 +158,10 @@ iframe {
   padding-left: 8px;
 }
 
+#main_baby_videos_page:hover {
+  cursor:pointer;
+}
+
 /* Helpers */
 
 .mt {
