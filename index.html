@@ -33,6 +33,29 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+    <script LANGUAGE="javascript">
+
+
+
+
+
+	   if (document.cookie.replace(/(?:(?:^|.*;\s*)doSomethingOnlyOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+	    
+		  var getin = prompt("This page requires a password.")
+	      if (getin != null && getin.toLowerCase().replace(/\s+/g,'')=="peppermint"){
+			document.cookie = "doSomethingOnlyOnce=true";
+	      }
+	      else{
+	        location.href="wrong_password.html"
+	      }   
+
+
+	    
+	  }
+
+
+
+    </script>
   </head>
 
   <body>
