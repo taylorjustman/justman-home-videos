@@ -25,6 +25,19 @@
 
     <!-- Play buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Password protect -->
+    <script LANGUAGE="javascript">
+    if (document.cookie.replace(/(?:(?:^|.*;\s*)onlyCheckPasswordOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+      var getin = prompt("This site requires a password.")
+      if (getin != null && getin.replace(/\s+/g,'')=="OhThePlaces"){
+        document.cookie = "onlyCheckPasswordOnce=true";
+      }
+      else{
+        location.href="wrong_password.html"
+      }  
+    }
+    </script>
   </head>
 
   <body>
@@ -80,6 +93,13 @@
       <div class="col-lg-4">
         <p>
           <i class="icon fa fa-play-circle"></i>
+          Poms - "Juju On That Beat" by Zay Hilfigerrr
+        </p>      
+        <iframe src="https://www.youtube.com/embed/GW5coqMsNKc?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-4">
+        <p>
+          <i class="icon fa fa-play-circle"></i>
           "My Blood" by Ellie Goulding
         </p>
         <iframe src="https://www.youtube.com/embed/Q1mo-i3K36Y?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -91,15 +111,15 @@
         </p>
         <iframe src="https://www.youtube.com/embed/N3YYkWI0Y_4?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<div class="col-lg-4">
+		</div><!-- /row -->
+    <div class="row mt centered"> 
+      <div class="col-lg-4">
         <p>
           <i class="icon fa fa-play-circle"></i>
           "Silver Snow" by Derik Nelson
           </p>
           <iframe src="https://www.youtube.com/embed/3PS-hgBHr1U?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div><!-- /row -->
-    <div class="row mt centered"> 
+      </div>
       <div class="col-lg-4">
         <p>
           <i class="icon fa fa-play-circle"></i>
@@ -107,7 +127,6 @@
         </p>
         <iframe src="https://www.youtube.com/embed/eyz2twUSx5E?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-4"></div>
       <div class="col-lg-4"></div>
     </div><!-- /row -->
     </div><!-- /container -->
@@ -136,19 +155,26 @@
         <img class="img-responsive-upright" src="http://i.imgur.com/Q08CWli.jpg" alt="" />
       </div>
     </div><!-- /row -->
-	<div class="row mt centered"> 
+	  <div class="row mt centered"> 
       <div class="col-lg-4">
         <img class="img-responsive-upright" src="http://i.imgur.com/7FDIVtG.jpg" alt="" />
       </div>
       <div class="col-lg-4">
-        <img class="img-responsive-upright" src="http://i.imgur.com/iuFKbqa.jpg" alt="" />
+        <img class="img-responsive-upright" src="http://i.imgur.com/2VBXVq7.jpg" alt="" />
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive-upright" src="http://i.imgur.com/eGAxtAz.jpg" alt="" />        
+      </div>
+    </div><!-- /row -->
+    <div class="row mt centered"> 
+      <div class="col-lg-4">
+        <img class="img-responsive" src="http://i.imgur.com/gYkh1lt.jpg" alt="" />
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive" src="http://i.imgur.com/VRGyjmV.jpg" alt="" />
       </div>
       <div class="col-lg-4"></div>
     </div><!-- /row -->
-
-
-
-
 	</div><!-- /container -->
 	
 	

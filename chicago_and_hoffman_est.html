@@ -25,6 +25,19 @@
 
     <!-- Play buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Password protect -->
+    <script LANGUAGE="javascript">
+    if (document.cookie.replace(/(?:(?:^|.*;\s*)onlyCheckPasswordOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+      var getin = prompt("This site requires a password.")
+      if (getin != null && getin.replace(/\s+/g,'')=="OhThePlaces"){
+        document.cookie = "onlyCheckPasswordOnce=true";
+      }
+      else{
+        location.href="wrong_password.html"
+      }  
+    }
+    </script>
   </head>
 
   <body>
@@ -179,7 +192,7 @@
         <img class="img-responsive-upright" src="http://i.imgur.com/R6RtDVq.jpg" alt="" />
       </div>
       <div class="col-lg-4">
-        <img class="img-responsive-upright" src="http://i.imgur.com/T5tRYJz.jpg" alt="" />
+        <img class="img-responsive-upright" src="http://i.imgur.com/LLW8C7l.jpg" alt="" />
       </div>
     </div><!-- /row -->
     <div class="row mt centered"> 
