@@ -28,15 +28,17 @@
 
     <!-- Password protect -->
     <script LANGUAGE="javascript">
-    if (document.cookie.replace(/(?:(?:^|.*;\s*)onlyCheckPasswordOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
-      var getin = prompt("This site requires a password.")
-      if (getin != null && getin.replace(/\s+/g,'')=="OhThePlaces"){
-        document.cookie = "onlyCheckPasswordOnce=true";
+      $( document ).ready(function() {
+      if (document.cookie.replace(/(?:(?:^|.*;\s*)onlyCheckPasswordOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+        var getin = prompt("This site requires a password.")
+        if (getin != null && getin.replace(/\s+/g,'')=="OhThePlaces"){
+          document.cookie = "onlyCheckPasswordOnce=true";
+        }
+        else{
+          location.href="wrong_password.html"
+        }  
       }
-      else{
-        location.href="wrong_password.html"
-      }  
-    }
+    });
     </script>
   </head>
 
